@@ -1,7 +1,7 @@
 const path=require('path')
 const { response } = require('express')
 const hbs=require('hbs')
-const geoCode=require('./utils/geocode')
+const geoCode=require('./Utils/geocode')
 const forecast=require('./Utils/forecast')
 
 const express=require('express')
